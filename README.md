@@ -8,21 +8,24 @@ The following steps were persormed to create the network (amnetwork) and the nod
 1. inside the directory AM_Network:
 
   a. Create the node1:
+  
       geth account new --datadir node1
       Pswd: node1pswd
       Public Address: 0x1B65f58873803e8d12E2E1bF2989FDAd071Af799
       Path of the secret key file: node1/keystore/UTC--2020-04-21T04-08-42.804293000Z-1b65f58873803e8d12e2e1bf2989fdad071af799
       
   b. Create the node2:
+  
       geth account new --datadir node2
       Pswd: node2pswd
       Public Address: 0x733Fa57D0853f3839525C0A5000627cB2FB7c782
       Path of the secret key file: node2/keystore/UTC--2020-04-21T04-09-27.759705000Z-733fa57d0853f3839525c0a5000627cb2fb7c782
 
   c. Create the network amnetwork:
+  
       puppet
       
-      ![amnetwork](Screenshots/puppeth_config.png)
+ ![amnetwork](Screenshots/puppeth_config.png)
       
  once created,
 
