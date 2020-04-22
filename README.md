@@ -1,47 +1,32 @@
 # Proof of Authority Development Chain
 
-For this assignment, you will take on the role of a new developer at a small bank.
 
-Your mission, should you choose to accept it, will be to set up a testnet blockchain for your organization.
+## Instructions
 
-To do this, you will create and submit four deliverables:
+The following steps were persormed to create the network (amnetwork) and the nodes (node1 and node2):
 
-* Set up your custom testnet blockchain.
+1. inside the directory AM_Network:
 
-* Send a test transaction.
+  a. Create the node1:
+      geth account new --datadir node1
+      Pswd: node1pswd
+      Public Address: 0x1B65f58873803e8d12E2E1bF2989FDAd071Af799
+      Path of the secret key file: node1/keystore/UTC--2020-04-21T04-08-42.804293000Z-1b65f58873803e8d12e2e1bf2989fdad071af799
+      
+  b. Create the node2:
+      geth account new --datadir node2
+      Pswd: node2pswd
+      Public Address: 0x733Fa57D0853f3839525C0A5000627cB2FB7c782
+      Path of the secret key file: node2/keystore/UTC--2020-04-21T04-09-27.759705000Z-733fa57d0853f3839525c0a5000627cb2fb7c782
 
-* Create a repository.
+  c. Create the network amnetwork:
+      puppet
+      
+      ![amnetwork](Screenshots/puppeth_config.png)
+      
+ once created,
 
-* Write instructions on how to use the chain for the rest of your team.
 
-## Background
-
-You have just landed a new job at ZBank, a small, innovative bank that is interested in exploring what
-blockchain technology can do for them and their customers.
-
-Your first project at the company is to set up a private testnet that you and your team of developers
-can use to explore potentials for blockchain at ZBank.
-
-You have decided on setting up a testnet because:
-
-There is no real money involved, which will give your team of developers the freedom to experiment.
-
-Testnets allows for offline development.
-
-In order to set up a testnet, you will need to use the following skills/tools we learned in class:
-
-* Puppeth, to generate your genesis block.
-
-* Geth, a command-line tool, to create keys, initialize nodes, and connect the nodes together.
-
-* The Clique Proof of Authority algorithm.
-
-Tokens inherently have no value here, so we will provide pre-configured accounts and nodes for easy setup.
-
-After creating the custom development chain, create documentation for others on how to start it using the pre-configured
-nodes and accounts. You can name the network anything you want, have fun with it!
-
-Be sure to include any preliminary setup information, such as installing dependencies and environment configuration.
 
 ## Instructions
 
