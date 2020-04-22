@@ -59,7 +59,7 @@ Using MyCrypto GUI wallet:
       
       and here the TX staus:
       
-      ![TXStatus](AM_Network/Screenshots/transaction.png)
+   ![TXStatus](AM_Network/Screenshots/transaction.png)
 
 
 3. Inside the directory AM_Network there are all the files created - repository -
