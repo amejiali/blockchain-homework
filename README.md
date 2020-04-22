@@ -55,9 +55,9 @@ Using MyCrypto GUI wallet:
   
   c. Send a transaction from the `node1` account to the `node2` account. Here the Transaction Hash:
   
-      TX Hash:0x3ac03bd5420983db9589ff89bf45240aef67180f401ab88eb264ceeaa3100f53
+      TX Hash:0x6d684c4fae466896845d0c3711141766f286fd34325af41134769ea90928dd1a
       
-      and here the TX staus:
+   and here the TX staus:
       
    ![TXStatus](AM_Network/Screenshots/transaction.png)
 
