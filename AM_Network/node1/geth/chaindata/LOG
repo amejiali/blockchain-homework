@@ -1,0 +1,41 @@
+=============== Apr 21, 2020 (CDT) ===============
+16:53:50.917326 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:53:51.039748 db@open opening
+16:53:51.040502 version@stat F·[] S·0B[] Sc·[]
+16:53:51.048179 db@janitor F·2 G·0
+16:53:51.048235 db@open done T·8.451144ms
+16:53:51.056165 db@close closing
+16:53:51.056387 db@close done T·221.609µs
+=============== Apr 21, 2020 (CDT) ===============
+16:55:43.863024 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:55:43.863639 version@stat F·[] S·0B[] Sc·[]
+16:55:43.863673 db@open opening
+16:55:43.863746 journal@recovery F·1
+16:55:43.869677 journal@recovery recovering @1
+16:55:43.874296 memdb@flush created L0@2 N·626 S·51KiB "\x02d\xfc..\x19Ba,v432":"\xfe\x88\xcf..H\xef\xcc,v363"
+16:55:43.879157 version@stat F·[1] S·51KiB[51KiB] Sc·[0.25]
+16:55:43.923314 db@janitor F·3 G·0
+16:55:43.923343 db@open done T·59.659362ms
+17:44:05.629800 db@close closing
+17:44:05.655791 db@close done T·25.98886ms
+=============== Apr 21, 2020 (CDT) ===============
+17:44:53.373628 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:44:53.383623 version@stat F·[1] S·51KiB[51KiB] Sc·[0.25]
+17:44:53.383707 db@open opening
+17:44:53.383957 journal@recovery F·1
+17:44:53.391206 journal@recovery recovering @3
+17:44:53.400507 memdb@flush created L0@5 N·11 S·911B "Dat..ion,v628":"r\x00\x00..=\xb2\\,v634"
+17:44:53.407019 version@stat F·[2] S·51KiB[51KiB] Sc·[0.50]
+17:44:53.501128 db@janitor F·4 G·0
+17:44:53.501189 db@open done T·117.437105ms
+=============== Apr 21, 2020 (CDT) ===============
+17:47:05.563768 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:47:05.582547 version@stat F·[2] S·51KiB[51KiB] Sc·[0.50]
+17:47:05.582651 db@open opening
+17:47:05.582787 journal@recovery F·1
+17:47:05.591391 journal@recovery recovering @6
+17:47:05.597597 version@stat F·[2] S·51KiB[51KiB] Sc·[0.50]
+17:47:05.686972 db@janitor F·4 G·0
+17:47:05.687013 db@open done T·104.338632ms
+21:57:20.908939 db@close closing
+21:57:20.927499 db@close done T·18.544619ms
