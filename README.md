@@ -5,7 +5,7 @@
 
 The following steps were persormed to create the network (amnetwork) and the nodes (node1 and node2):
 
-1. inside the directory AM_Network:
+1. Inside the directory AM_Network:
 
   a. Create the node1:
   
@@ -47,46 +47,19 @@ The following steps were persormed to create the network (amnetwork) and the nod
       
 2. Send a test transaction:
 
+Using MyCrypto GUI wallet:
+
+  a. connect to the node with the exposed RPC port, using a custom network, and include the chain ID (571) from amnetwork.json, and use ETH as the currency.
+  
+  b. Import the keystore file from the `node1/keystore` directory into MyCrypto. This will import the private key.
+  
+  c. Send a transaction from the `node1` account to the `node2` account. Here the Transaction Hash:
+  
+      TX Hash:0x3ac03bd5420983db9589ff89bf45240aef67180f401ab88eb264ceeaa3100f53
+      
+      and here the TX staus:
+      
+      ![TXStatus](AM_Network/Screenshots/transaction.png)
 
 
-
-
-* Use the MyCrypto GUI wallet to connect to the node with the exposed RPC port.
-
-* You will need to use a custom network, and include the chain ID, and use ETH as the currency.
-
-![custom-node](Images/custom-node.png)
-
-* Import the keystore file from the `node1/keystore` directory into MyCrypto. This will import the private key.
-
-* Send a transaction from the `node1` account to the `node2` account.
-
-* Copy the transaction hash and paste it into the "TX Status" section of the app, or click "TX Status" in the popup.
-
-* Screenshot the transaction metadata (status, tx hash, block number, etc) and save it to your Screenshots folder.
-
-* Celebrate, you just created a blockchain and sent a transaction!
-
-![transaction-success](Images/transaction-success.png)
-
-### Create a repository, and instructions for launching the chain
-
-* Create a `README.md` in your project directory and create documentation that explains how to start the network.
-
-* Remember to include any environment setup instructions and dependencies.
-
-* Be sure to include all of the `geth` flags required to get both nodes to mine and explain what they mean.
-
-* Explain the configuration of the network, such as it's blocktime, chain ID, account passwords, ports, etc.
-
-* Explain how to connect MyCrypto to your network and demonstrate (via screenshots and steps) and send a transaction.
-
-* Upload the code, including the `networkname.json` and node folders.
-
-### Remember, *never* share your mainnet private keys! This is a testnet, so coins have no value here!
-
-### Challenge mode
-
-* Create a separate `bootnode` dedicated to connecting peers together
-
-* There will be a new DevOps engineer joining the team, add an additional sealer address to the network on the fly!
+3. Inside the directory AM_Network there are all the files created - repository -
