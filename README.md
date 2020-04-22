@@ -25,7 +25,7 @@ The following steps were persormed to create the network (amnetwork) and the nod
   
       puppet
       
- ![amnetwork](Screenshots/puppeth_config.png)
+ ![amnetwork](AN_Network/Screenshots/puppeth_config.png)
       
  once created,
 
