@@ -24,10 +24,22 @@ The following steps were persormed to create the network (amnetwork) and the nod
   c. Create the network amnetwork:
   
       puppet
+      with the following setup:
       
  ![amnetwork](AM_Network/Screenshots/puppeth_config.png)
+  
+  
+  d. Init the nodes:
       
- once created,
+      once created, In a separate Terminal Window, in the AM_Network directory, run the init comads for the nodes:
+      
+      geth init amnetwork.json --datadir node1
+      geth init amnetwork.json --datadir node2
+    
+  e. 
+      
+      
+
 
 
 
