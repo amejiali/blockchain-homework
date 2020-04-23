@@ -27,6 +27,7 @@ The following steps were persormed to create the network (amnetwork) and the nod
       with the following setup:
       
  ![amnetwork](AM_Network/Screenshots/puppeth_config.png)
+ ![amnetworkjson](AM_Network/Screenshots/amnetworkjson.png)
   
   
   d. Init the nodes:
